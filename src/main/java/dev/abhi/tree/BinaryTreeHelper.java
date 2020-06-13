@@ -1,4 +1,4 @@
-package dev.abhi;
+package dev.abhi.tree;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,11 +6,12 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import dev.abhi.tree.BinaryTree;
-
 public class BinaryTreeHelper {
 
     Queue<BinaryTree> q = new LinkedList<>();
+    
+    
+    
 
     public BinaryTree createBinaryTree() throws IOException {
 
